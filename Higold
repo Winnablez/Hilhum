@@ -1,0 +1,6 @@
+-- DIAMOND PROTECT --
+minecraft = false
+if minecraft then
+    game:Shutdown()
+    game.Players.LocalPlayer:Kick()
+end
